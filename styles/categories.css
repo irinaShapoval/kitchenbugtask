@@ -1,0 +1,41 @@
+.top-menu {
+    list-style: none;
+}
+.top-menu li{
+    display: inline-block;
+    padding:5px 10px;
+    cursor: pointer;
+    border: 1px solid whitesmoke;
+    color: grey;
+}
+[categories-drtv] {
+    width: 400px;
+    height: 160px;
+    position: absolute;
+    background: whitesmoke;
+    top: 40px;
+    padding: 10px;
+    overflow: auto;
+}
+[categories-drtv] > div {
+      padding: 5px 10px;
+      border: 1px solid grey;
+      border-radius: 10px;
+      display: inline-block;
+      margin: 0 10px 10px;
+ }
+[categories-drtv] > div:hover {
+    border: 1px solid rgb(65, 48, 48);
+}
+[categories-drtv] > div a {
+    text-decoration: none;
+}
+[categories-drtv] > div a .item {
+    color:grey;
+}
+.category-details .title {
+    color: rgb(65, 48, 48);
+}
+.category-details .name {
+    color:grey;
+}
